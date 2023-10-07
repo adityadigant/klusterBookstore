@@ -1,0 +1,102 @@
+
+.books {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .filter {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  #filterSelect {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-cover {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .book-details {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Books.css */
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to the next line when there's not enough space */
+    gap: 20px; /* Adjust the gap between books */
+  }
+  
+  /* Style for individual book items */
+  .book {
+
+    max-width: 200px;
+    /* padding: 20px;
+    box-shadow: 2px 3px 5px 3px gray; */
+  }
+  
